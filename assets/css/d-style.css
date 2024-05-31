@@ -27,7 +27,7 @@ button.btn-theme,
 }
 
 ul.newsticker a {
-    color: #fff;
+    color: #000 !important;
 }
 
 /* .blog-sidebar .nav.menu.sidebar-nav > li {
