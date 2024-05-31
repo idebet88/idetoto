@@ -1,4 +1,4 @@
-window.mobileCheck = function () {
+const isMobile = window.mobileCheck = function () {
   let check = false;
   (function (a) {
     if (
@@ -14,3 +14,5 @@ window.mobileCheck = function () {
   console.log(check, "<<<<< mobileCheck");
   return check;
 };
+
+console.log(isMobile, "<<<<< isMobile Function");
